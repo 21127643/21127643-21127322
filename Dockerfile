@@ -6,4 +6,4 @@ COPY . /app
 
 EXPOSE 5000
 
-CMD ["python", "./a.py"]
+CMD ["python", "/app/.git/a.py"]
